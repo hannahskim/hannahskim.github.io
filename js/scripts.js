@@ -190,7 +190,7 @@
          mapTypeControlOptions: {
              mapTypeIds: ['Styled']
          },
-         center: new google.maps.LatLng(30.2072037, 74.95851889999994),
+         center: new google.maps.LatLng(43.4722893, -80.5470463),
          zoom: 15,
          streetViewControl: false,
          mapTypeControl: false,
@@ -201,7 +201,7 @@
      var map = new google.maps.Map(div, options);
      var marker_img = 'images/gps_marker.png';
      var marker = new google.maps.Marker({
-         position: new google.maps.LatLng(30.2072037, 74.95851889999994),
+         position: new google.maps.LatLng(43.4722893, -80.5470463),
          map: map,
          icon: marker_img,
          title: "Prasanjit Singh"
