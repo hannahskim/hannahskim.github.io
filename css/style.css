@@ -131,6 +131,13 @@ section {
     -moz-transition: font-size .5s ease;
     transition: font-size .5s ease;
 }
+#intro-text h3 {
+    font: 300 1.5em 'Open Sans', sans-serif;
+    color: #fff;
+    line-height: 1.1;
+    position: relative;
+    padding: .4em 0 1.2em;
+}
 #intro-text h1 span {
     color: #27a7f1;
     white-space: nowrap;
