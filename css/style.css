@@ -114,24 +114,20 @@ section {
     position: relative;
 }
 /*Menu Bar*/
-#menubar li {
-    display: inline;
-    margine: 10px;
-    text-align: center;
-}
-#menubar h1 {
-    font: 300 1.5em 'Open Sans', sans-serif;
-    color: #fff;
-    line-height: 1.1;
-    position: relative;
-    padding: .4em 0 1.2em;
-}
-#menubar {
+ul {
     background-color: white;
-    width: 300px;
-    height:25px;
-    border-radius:5px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
 }
+li {
+    display: inline;
+}
+li a{
+    display: block;
+}
+
 /*Section 1*/
 #intro {
     height: 100%;
