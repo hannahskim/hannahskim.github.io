@@ -8,22 +8,51 @@
  -->
 <html>
 <head>
-	<title>Demo - Scrolled HTML5 Template [Prasanjit.com]</title>
+<style>
+ul {
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+li{
+	float:left;
+}
+li a {
+	display: inline-block;
+	color:white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration:none;
+}
+li a:hover {
+	background-color: #111;
+}
+</style>
+	<title>Hannah's Website :D</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/style.css"> 
 	<link rel="stylesheet" type="text/css" href="css/responsive.css"> 
-    <script src="js/pace.js"></script> 
+    <!--<script src="js/pace.js"></script>-->
 </head>
 <body>
-	<div id="vid-overlay"></div>
+	<!--menu bar-->
+	<ul>
+		<li><a class= "menu">Hannah's Website</a></li>
+		<li><a href="">Resume</a></li>
+		<li><a href="https://github.com/hannahskim">Github</a></li>
+	</ul>
+	<!--<div id="vid-overlay"></div>=-->
 	<!-- Intro -->
 	<section id="intro">
 		<div id="intro-text">
 			<!-- To change text go to scripts.js -->
-			<h1>We are <span id="fill-text"></span></h1>
+			<h1>HANNAH KIM<span id="fill-text"></span></h1>
 			<div href="#about" id="scr-down">
-				<h2><span>about</span> [Company Name]</h2>
+				<h2>HANNAH KIM<span>'s Website</span></h2>
+				<h3>take a look</h3>
 				<a href="#about">
 					<img src="images/scr_down.png">
 				</a> 
@@ -33,61 +62,61 @@
 	<!-- About -->
 	<section id="about">
 		<article>
-			<h5>The Brief</h5>
-			<h1><span>Lorem ipsum dolor sit amet</span>, consectetur adipiscing elit. Sed a adipiscing dui. Suspendisse vulputate eros eu purus porta ultricies. <em>Mauris odio magna, suscipit in felis facilisis, sollicitudin convallis nibh. Etiam accumsan tellus quis dolor blandit tristique.</em></h1>
-			<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a adipiscing dui. Suspendisse vulputate eros eu purus porta ultricies. Mauris odio magna, suscipit in felis facilisis, sollicitudin convallis nibh.</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a adipiscing dui. Suspendisse vulputate eros eu purus porta ultricies. Mauris odio magna, suscipit in felis facilisis, sollicitudin convallis nibh. </p>
+			<h5>About me</h5>
+			<h1>Hi, my name is <span>Hannah Kim</span>.</h1> 
+			<h4>I am currently studying for a Computer Engineering program at the University of Waterloo. I am receptive to new ideas. I like to explore new places, love to adopt new technologies and am interested in learning new programming languages.</h4>
+			<p>:D</p>
 		</article>
 	</section>
 	<!-- Services -->
 	<section id="services">
-		<h2>Services <span>that we offer</span></h2>
+		<h2>Programming Languages <span>that I know</span></h2>
 		<article>
-			<div id="php">
-				<img src="images/php-dev.png">
-				<h5>PHP</h5>
-			</div>
-			<div id="wp">
-				<img src="images/wp-dev.png">
-				<h5>Wordpress</h5>
-			</div>
-			<div id="ps">
-				<img src="images/psd-icn.png">
-				<h5>UX/UI Design</h5>
-			</div>
 			<div id="droid">
 				<img src="images/and-dev.png">
-				<h5>Android Development</h5>
+				<h5>Java</h5>
 			</div>
 			<div id="ios">
 				<img src="images/ios-dev.png">
-				<h5>iOS Development</h5>
+				<h5>Objective C</h5>
+			</div>
+			<div id="wp">
+				<img src="images/wp-dev.png">
+				<h5>C++</h5>
+			</div>
+			<div id="ps">
+				<img src="images/psd-icn.png">
+				<h5>Python</h5>
+			</div>
+			<div id="php">
+				<img src="images/php-dev.png">
+				<h5>HTML</h5>
 			</div>
 			<div id="soc">
 				<img src="images/soc-media.png">
-				<h5>Social Media</h5>
+				<h5>CSS</h5>
 			</div>
 		</article>
 	</section>
 	<!-- Process -->
 	<section id="process">
-		<h2>The Process</h2>
+		<h2>Tools / Frameworks</h2>
 		<article>
 			<span id="ideate">
 				<img src="images/ideate.png">
-				<h5>Ideate</h5>
+				<h5>Xcode</h5>
 			</span>
 			<span id="photoshop">
 				<img src="images/psd.png">
-				<h5>Photoshop</h5>
+				<h5>Eclipse</h5>
 			</span>
 			<span id="code">
 				<img src="images/code.png">
-				<h5>Code</h5>
+				<h5>Command Line</h5>
 			</span>
 			<span id="optimize">
 				<img src="images/optimize.png">
-				<h5>Optimize</h5>
+				<h5>Matlab</h5>
 			</span>
 			<h4>&hellip;or choose anyone of these.</h4>
 		</article>
@@ -95,22 +124,22 @@
 	<!-- Portfolio -->
 	<section id="portfolio">
 		<div id="color-bg"></div>
-		<h2>Portfolio</h2>
+		<h2>Projects</h2>
 		<ul class="port-style">
 			<div class="diamondswrap" id="port-items">
-				<div class="item" style="background-image: url(images/portfolio/1.jpg);"><span class="item-hover"><h4>Project 1</h4><a href="#">Take a look</a></span></div>
-				<div class="item" style="background-image: url(images/portfolio/2.jpg);"><span class="item-hover"><h4>Project 2</h4><a href="#">Take a look</a></span></div>
-				<div class="item" style="background-image: url(images/portfolio/3.jpg);"><span class="item-hover"><h4>Project 3</h4><a href="#">Take a look</a></span></div>
-				<div class="item" style="background-image: url(images/portfolio/4.jpg);"><span class="item-hover"><h4>Project 4</h4><a href="#">Take a look</a></span></div>
-				<div class="item" style="background-image: url(images/portfolio/5.jpg);"><span class="item-hover"><h4>Project 5</h4><a href="#">Take a look</a></span></div>
-				<div class="item" style="background-image: url(images/portfolio/6.jpg);"><span class="item-hover"><h4>Project 6</h4><a href="#">Take a look</a></span></div>
-				<div class="item" style="background-image: url(images/portfolio/7.jpg);"><span class="item-hover"><h4>Project 7</h4><a href="#">Take a look</a></span></div>
-				<div class="item" style="background-image: url(images/portfolio/8.jpg);"><span class="item-hover"><h4>Project 8</h4><a href="#">Take a look</a></span></div>
-				<div class="item" style="background-image: url(images/portfolio/9.jpg);"><span class="item-hover"><h4>Project 9</h4><a href="#">Take a look</a></span></div>
-				<div class="item" style="background-image: url(images/portfolio/1.jpg);"><span class="item-hover"><h4>Project 10</h4><a href="#">Take a look</a></span></div>
-				<div class="item" style="background-image: url(images/portfolio/2.jpg);"><span class="item-hover"><h4>Project 11</h4><a href="#">Take a look</a></span></div>
-				<div class="item" style="background-image: url(images/portfolio/3.jpg);"><span class="item-hover"><h4>Project 12</h4><a href="#">Take a look</a></span></div>
-				<div class="item" style="background-image: url(images/portfolio/4.jpg);"><span class="item-hover"><h4>Project 13</h4><a href="#">Take a look</a></span></div>
+				<div class="item" style="background-image: url(images/portfolio/1.jpg);"><span class="item-hover"><h4>Project 1</h4><a href="https://github.com/hannahskim/YouVsSchool">You VS School</a></span></div>
+				<div class="item" style="background-image: url(images/portfolio/2.jpg);"><span class="item-hover"><h4>Project 2</h4><a href="https://github.com/hannahskim/GuessingGame">Guessing Game</a></span></div>
+				<div class="item" style="background-image: url(images/portfolio/3.jpg);"><span class="item-hover"><h4>Project 3</h4><a href="https://github.com/hannahskim/Sorting">Sorting Code</a></span></div>
+				<div class="item" style="background-image: url(images/portfolio/4.jpg);"><span class="item-hover"><h4>Project 4</h4><a href="https://github.com/hannahskim/Reversi">Reversi</a></span></div>
+				<div class="item" style="background-image: url(images/portfolio/5.jpg);"><span class="item-hover"><h4>Project 5</h4><a href="https://github.com/hannahskim/pokersolitare">Poker Solitaire</a></span></div>
+				<div class="item" style="background-image: url(images/portfolio/6.jpg);"><span class="item-hover"><h4>Project 6</h4><a href="https://github.com/hannahskim/pokersolitaireAndroid">Pocker Solitaire Android</a></span></div>
+				<div class="item" style="background-image: url(images/portfolio/7.jpg);"><span class="item-hover"><h4>Project 7</h4><a href="https://github.com/hannahskim/FileComparison">File Comparison</a></span></div>
+				<div class="item" style="background-image: url(images/portfolio/8.jpg);"><span class="item-hover"><h4>Project 8</h4><a href="#">In progress</a></span></div>
+				<div class="item" style="background-image: url(images/portfolio/9.jpg);"><span class="item-hover"><h4>Project 9</h4><a href="#">In progress</a></span></div>
+				<div class="item" style="background-image: url(images/portfolio/1.jpg);"><span class="item-hover"><h4>Project 10</h4><a href="#">In progress</a></span></div>
+				<div class="item" style="background-image: url(images/portfolio/2.jpg);"><span class="item-hover"><h4>Project 11</h4><a href="#">In progress</a></span></div>
+				<div class="item" style="background-image: url(images/portfolio/3.jpg);"><span class="item-hover"><h4>Project 12</h4><a href="#">In progress</a></span></div>
+				<div class="item" style="background-image: url(images/portfolio/4.jpg);"><span class="item-hover"><h4>Project 13</h4><a href="#">In progress</a></span></div>
 			</div>
 		</ul>
 	</section>
@@ -131,10 +160,12 @@
 			    </form>
 			</div>
 			<div id="address">
-				<p>or you can send an email or call us.</p>
-				<span>info@prasanjit.com</span>
-				<span>(+91) 9779999231</span>
-				<span>#22168, Phase iii, Bathinda.</span>
+				<p>Personal Information</p>
+				<span>s357kim@uwaterloo.ca</span>
+				<span>(647)468-7524</span>
+				<span>200 University Ave W, Waterloo, ON N2L 3G1</span>
+				<span><a href="http://ca.linkedin.com/in/hannahskim">LinkedIn</a></span>
+				<span><a href="https://github.com/hannahskim">GitHub</a></span>
 	        </div>
 		</article>
 		<!-- To change map location edit scripts.js -->
