@@ -115,17 +115,23 @@ section {
 }
 /*Menu Bar*/
 ul {
-    background-color: white;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 60px;
+    overflow: hidden;
+    background-color: #333;
 }
 li {
-    display: inline;
+    float: left;
 }
 li a{
     display: block;
+    color:white;
+    text-align: center;
+    padding:14px 16px;
+}
+li a:hover {
+    background-color: #111;
 }
 
 /*Section 1*/
