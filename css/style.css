@@ -295,7 +295,7 @@ section {
     width: 100%;
     opacity: .7;
 }
-#portfolio>h2 {
+#portfolio h2 {
     font: normal 5em 'code_boldregular';
     color: #fff;
     padding: 1em 0 .8em;
