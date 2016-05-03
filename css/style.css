@@ -123,16 +123,15 @@ ul {
 }
 li {
     float: left;
+    border-right: 1px solid white;
+    postion: fixed;
+    top: 0;
+    width: 100%;
 }
-li b{
-    font: 'Open Sans', sans-serif;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+li:last-child{
+    border-right: none;
 }
 li a{
-    font: 'Open Sans', sans-serif;
     display: block;
     color: white;
     text-align: center;
