@@ -109,7 +109,7 @@ section {
     position: relative;
 }
 /*Menu Bar*/
-ul {
+#menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -119,25 +119,25 @@ ul {
     top: 0;
     width: 100%;
 }
-li {
+#menu li {
     float: left;
 }
-li a{
+#menu li a{
     font: 'Open Sans', sans-serif;
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
 }
-li b {
+#menu li b {
     font: 'Open Sans', sans-serif;
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
 }
-li a:hover {
-    background-color: #111;
+#menu li a:hover {
+    background-color: gray;
 }
 
 /*Section 1*/
