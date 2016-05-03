@@ -58,10 +58,10 @@ body {
 body {
     background-color: #222;
 }
-body.mobile {
+/*body.mobile {
     background: url(../images/mob_bg.jpg) right fixed;
     background-size: cover;
-}
+}*/
 #video-bg {
     position: fixed;
     right: 0;
@@ -119,7 +119,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+
     postion: fixed;
     top: 0;
     width: 100%;
