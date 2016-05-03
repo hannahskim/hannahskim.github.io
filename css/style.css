@@ -124,12 +124,19 @@ ul {
 li {
     float: left;
 }
-li a{
-    font: 300 1.5em 'Open Sans', sans-serif;
+li b{
+    font: 'Open Sans', sans-serif;
     display: block;
-    color:white;
+    color: white;
     text-align: center;
-    padding:14px 16px;
+    padding: 14px 16px;
+}
+li a{
+    font: 'Open Sans', sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
 }
 li a:hover {
     background-color: #111;
