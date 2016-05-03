@@ -108,11 +108,12 @@ body.mobile {
     position: fixed;
     height: 100%;
     width: 100%;
-    background: url(../images/overlay-pattern.png);
+    background: url(../images/background.png);
 }
 section {
     position: relative;
 }
+
 /*Section 1*/
 #intro {
     height: 100%;
