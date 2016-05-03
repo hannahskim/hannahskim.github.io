@@ -125,6 +125,7 @@ li {
     float: left;
 }
 li a{
+    font: 300 1.5em 'Open Sans', sans-serif;
     display: block;
     color:white;
     text-align: center;
