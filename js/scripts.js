@@ -1,11 +1,11 @@
  // Initialise video background
- /*if (!device.tablet() && !device.mobile()) {
+ if (!device.tablet() && !device.mobile()) {
      $(function() {
          $(".player").mb_YTPlayer();
      });
  } else {
      $('body').addClass('mobile');
- }*/
+ }
 
  // Intro
  $(function() {
