@@ -51,11 +51,6 @@ html,body {
     height: 100%!important;
 }
 body {
-    background-image: url("background.png");
-    background-position: right top;
-    background-attachment: fixed;
-}
-body {
     background-color: #222;
 }
 body.mobile {
@@ -128,7 +123,14 @@ li {
     float: left;
 }
 li a{
-    font: 'Open Sans';
+    font: 'Open Sans', sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+li b {
+    font: 'Open Sans', sans-serif;
     display: block;
     color: white;
     text-align: center;
