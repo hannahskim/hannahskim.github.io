@@ -113,15 +113,6 @@ body.mobile {
 section {
     position: relative;
 }
-#menubar {
-}
-#menubar-text h1 {
-    font: 300 1.5em 'Open Sans', sans-serif;
-    color: #333;
-    line-height: 1.1;
-    position: relative;
-    padding: .4em 0 1.2em;
-}
 /*Section 1*/
 #intro {
     height: 100%;
