@@ -120,13 +120,13 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-}
-li {
-    float: left;
-
     postion: fixed;
     top: 0;
     width: 100%;
+}
+li {
+    float: left;
+    border-right: 1px solid white;
 }
 li a{
     display: block;
