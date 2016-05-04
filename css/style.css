@@ -123,14 +123,14 @@ section {
     float: left;
 }
 #menu li a{
-    font: 'Open Sans', sans-serif;
+    font: normal 14px 'Open Sans', sans-serif;
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
 }
 #menu li b {
-    font: 'Open Sans', sans-serif;
+    font: normal 14px 'Open Sans', sans-serif;
     display: block;
     color: white;
     text-align: center;
