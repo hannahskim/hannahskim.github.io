@@ -14,13 +14,11 @@
  $(document).ready(function() {
      var menucontroller = $('#menu');
 
-     scrl = $(menucontroller).offset().top;
      $(window).scroll(function($){
-        if ($(this).scrollTop() > num) {
+        if ($(this).scrollTop() > 125) {
             menucontroller.addClass("menus");
         }
         else {
-            num = $(menucontroller).offset().top;
             menucontroller.removeClass("menus");
         }
      }
