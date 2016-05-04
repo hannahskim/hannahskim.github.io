@@ -561,7 +561,7 @@ section {
     bottom: 7em;
     opacity: .8;
 }
-#contact_form {
+/*#contact_form {
     text-align: left;
 }
 #contact_form>h3 {
@@ -582,7 +582,7 @@ section {
     border: none;
     background-color: #417FCE;
     display: block;
-}
+}*/
 #address>p {
     padding: 9.6em 0 1em;
 }
