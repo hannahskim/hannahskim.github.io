@@ -12,16 +12,18 @@
 
  // -----------------Animations (using superscrollorama plugin)------------
  $(document).ready(function() {
-     /*var menucontroller = $('#menu');
+     var menucontroller = $('#menu');
 
+     scrl = menucontroller.offset().top;
      $(window).scroll(function($){
-        if ($(this).scrollTop() > 125) {
+        if ($(this).scrollTop() > num) {
             menucontroller.addClass("menus");
         }
         else {
+            num = menucontroller.offset().top;
             menucontroller.removeClass("menus");
         }
-     }*/
+     }
 
      var controller = $.superscrollorama();
 
