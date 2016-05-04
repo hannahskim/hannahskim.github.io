@@ -110,7 +110,6 @@ section {
 }
 /*Menu Bar*/
 #menu ul {
-    position: absolute;
     list-style-type: none;
     margin: 0;
     padding: 0;
