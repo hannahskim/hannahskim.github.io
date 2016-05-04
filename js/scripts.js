@@ -14,13 +14,13 @@
  $(document).ready(function() {
      var menucontroller = $('#menu');
 
-     scrl = menucontroller.offset().top;
+     scrl = $(menucontroller).offset().top;
      $(window).scroll(function($){
         if ($(this).scrollTop() > num) {
             menucontroller.addClass("menus");
         }
         else {
-            num = menucontroller.offset().top;
+            num = $(menucontroller).offset().top;
             menucontroller.removeClass("menus");
         }
      }
