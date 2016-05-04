@@ -570,10 +570,6 @@ section {
     color: #353535;
     padding-bottom: .3em;
 }
-#contact_form>p,#address>p {
-    font: 300 1.1em 'Open Sans', sans-serif;
-    color: #3C3C3C;
-}
 #contact_form>hr {
     width: 150px;
     margin: 20px 0;
@@ -584,6 +580,8 @@ section {
     display: block;
 }*/
 #address>p {
+    font: 300 1.1em 'Open Sans', sans-serif;
+    color: #3C3C3C;
     padding: 9.6em 0 1em;
 }
 #cont-form {
