@@ -127,6 +127,7 @@ section {
     display: block;
     color: white;
     text-align: center;
+    text-decoration: none;
     padding: 14px 16px;
 }
 #menu li b {
@@ -561,6 +562,24 @@ section {
     bottom: 7em;
     opacity: .8;
 }
+/*#contact_form {
+    text-align: left;
+}
+#contact_form>h3 {
+    font: 600 2em 'Open Sans', sans-serif;
+    letter-spacing: -1px;
+    color: #353535;
+    padding-bottom: .3em;
+}
+#contact_form>hr {
+    width: 150px;
+    margin: 20px 0;
+    float: left;
+    height: 1px;
+    border: none;
+    background-color: #417FCE;
+    display: block;
+}*/
 #address>p {
     font: 300 1.1em 'Open Sans', sans-serif;
     color: #3C3C3C;
