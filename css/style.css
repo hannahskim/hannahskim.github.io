@@ -109,9 +109,6 @@ section {
     position: relative;
 }
 /*Menu Bar*/
-#menu {
-    position:fixed;
-}
 #menu ul {
     list-style-type: none;
     margin: 0;
