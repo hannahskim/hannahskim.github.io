@@ -109,15 +109,17 @@ section {
     position: relative;
 }
 /*Menu Bar*/
+#menu {
+    position:fixed;
+    top: 0;
+    width: 100%;
+}
 #menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: black;
-    postion: fixed;
-    top: 0;
-    width: 100%;
 }
 #menu li {
     float: left;
