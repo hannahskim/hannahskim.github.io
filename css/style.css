@@ -56,8 +56,12 @@ ul.nav-bar li {
     padding-right: 13px;
 }
 ul.nav-bar li a {
+    display: block;
     color: white;
     text-decoration: none;
+}
+ul.nav-bar li a:hover {
+    background: rgba(255, 255, 255, .5);
 }
 body {
     background-image: url(../images/background.png);
