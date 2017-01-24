@@ -319,7 +319,7 @@ section {
 }
 #process article span {
     display: inline-block;
-    margin: 0 5%;
+    margin: 0 3%;
     position: relative;
 }
 #process article img {
