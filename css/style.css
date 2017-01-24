@@ -53,8 +53,7 @@ ul.nav-bar {
 }
 ul.nav-bar li {
     float: right;
-    padding-left: 13px;
-    padding-right: 13px;
+    padding-right: 30px;
 }
 ul.nav-bar li a {
     color: white;
