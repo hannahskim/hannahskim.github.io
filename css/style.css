@@ -61,7 +61,9 @@ ul.nav-bar li a {
     text-decoration: none;
 }
 body {
-    line-height: 1}
+    background-image: url(../images/background.png);
+    line-height: 1
+}
 ol,ul {
     list-style: none}
 blockquote,q {
@@ -81,11 +83,9 @@ body.mobile {
     background: url(../images/mob_bg.jpg) right fixed;
     background-size: cover;
 }
-section div div img clip-circle {
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+span a {
+    color: black;
+    text-decoration: none;
 }
 #video-bg {
     position: fixed;
@@ -749,6 +749,14 @@ section {
 }
 #address span:nth-child(4) {
     background-image: url('../images/marker_icn.png');
+}
+#address span:nth-child(5) {
+    background-image: url('../images/linkedin-icn.png');
+    background-size: 20px 20px;
+}
+#address span:nth-child(6) {
+    background-image: url('../images/github-icn.png');
+    background-size: 20px 20px;
 }
 #form-sub-msg {
     font-family: 'Josefin Slab', serif;
