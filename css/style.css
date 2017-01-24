@@ -36,6 +36,30 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     padding: 0}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
     display: block}
+ul.nav-bar {
+    font-family: 'homizio_novalight';
+    letter-spacing: 1px;
+    list-style-type: none;
+    color: white;
+    margin: 0;
+    padding: 15px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, .9);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 10;
+    display: block;
+}
+ul.nav-bar li {
+    float: right;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+ul.nav-bar li a {
+    color: white;
+    text-decoration: none;
+}
 body {
     line-height: 1}
 ol,ul {
@@ -56,6 +80,12 @@ body {
 body.mobile {
     background: url(../images/mob_bg.jpg) right fixed;
     background-size: cover;
+}
+section div div img clip-circle {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 #video-bg {
     position: fixed;
